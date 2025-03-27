@@ -1,164 +1,283 @@
-/* Reset и базовые стили */
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-size: 14px;
-  font-family: Arial, sans-serif;
-  background: #ffffff;
-  color: #000000;
 }
-
-/* Основные стили контейнера */
-.container {
+.v1_1178 {
   width: 100%;
-  min-height: 100vh;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
   position: relative;
+  top: 0px;
+  left: 0px;
   overflow: hidden;
 }
-
-/* Шапка сайта */
-.header {
+.v1_1179 {
   width: 100%;
-  height: 120px;
-  background: #ffffff;
+  height: 100%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
   position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
 }
-
-.header-line {
+.v1_1183 {
   width: 100%;
   height: 10px;
-  background: #171717;
+  background: rgba(23,23,23,1);
+  opacity: 1;
   position: absolute;
   top: 120px;
+  left: 0px;
+  overflow: hidden;
 }
-
-.logo {
+.v4_101 {
+  width: 102px;
+  height: 35px;
+  background: url("../images/v4_101.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 45px;
+  left: 1228px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.v1_1236 {
   width: 171px;
-  color: #000000;
+  color: rgba(0,0,0,1);
   position: absolute;
   top: 49px;
   left: 58px;
-  font-family: 'Rubik Burned', cursive;
+  font-family: Rubik Burned;
+  font-weight: Regular;
   font-size: 48px;
+  opacity: 1;
   text-align: left;
 }
-
-/* Основное содержимое */
-.main-content {
+.v1_1237 {
   width: 100%;
   height: 820px;
-  background-size: cover;
-  background-position: center;
+  background: url("../images/v1_1237.png");
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
   position: absolute;
   top: 130px;
-}
-
-/* Футер */
-.footer {
-  width: 100%;
-  height: 72px;
-  background: #171717;
-  position: absolute;
-  bottom: 0;
-}
-
-.footer-text {
-  color: #ffffff;
-  position: absolute;
-  font-family: 'Italianno', cursive;
-  font-size: 48px;
-}
-
-.copyright {
-  color: #ffffff;
-  position: absolute;
-  font-family: 'Itim', cursive;
-  font-size: 64px;
-}
-
-/* Кнопки и элементы интерфейса */
-.button {
-  height: 47px;
-  background: #171717;
-  border-radius: 10px;
-  color: #ffffff;
-  position: absolute;
+  left: 0px;
   overflow: hidden;
 }
-
-.button-home {
-  width: 119px;
-  top: 45px;
-  left: 720px;
-}
-
-.button-about {
-  width: 150px;
-  top: 44px;
-  left: 867px;
-}
-
-.button-contact {
-  width: 122px;
-  top: 46px;
-  left: 1054px;
-}
-
-.button-login {
-  width: 102px;
-  top: 45px;
-  left: 1228px;
-}
-
-/* Декоративные элементы */
-.decorative-image {
+.v4_6 {
   width: 115px;
   height: 115px;
-  background-size: cover;
-  background-position: center;
+  background: url("../images/v4_6.png");
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
   position: absolute;
-  bottom: 72px;
-  left: 0;
+  top: 835px;
+  left: 0px;
+  overflow: hidden;
 }
-
-.social-icon {
+.v4_10 {
+  width: 100%;
+  height: 72px;
+  background: rgba(23,23,23,1);
+  opacity: 1;
+  position: absolute;
+  top: 952px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4_11 {
+  width: 175px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 961px;
+  left: 339px;
+  font-family: Italianno;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.v4_12 {
   width: 37px;
   height: 37px;
-  background-size: cover;
-  background-position: center;
+  background: url("../images/v4_12.png");
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
   position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
 }
-
-/* Медиа-запросы для адаптивности */
-@media (max-width: 768px) {
-  .logo {
-    font-size: 32px;
-    left: 20px;
-  }
-  
-  .button {
-    width: 80px;
-    font-size: 12px;
-  }
-  
-  .footer-text, .copyright {
-    font-size: 24px;
-  }
+.v4_13 {
+  width: 280px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 978px;
+  left: 404px;
+  font-family: Itim;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
 }
-
-@media (max-width: 480px) {
-  .logo {
-    font-size: 24px;
-  }
-  
-  .main-content {
-    height: 500px;
-  }
+.v4_450 {
+  width: 127px;
+  height: 48px;
+  background: url("../images/v4_450.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 45px;
+  left: 720px;
+  overflow: hidden;
+}
+.v4_451 {
+  width: 119px;
+  height: 47px;
+  background: rgba(23,23,23,1);
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.v4_453 {
+  width: 129px;
+  height: 47px;
+  background: url("../images/v4_453.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 45px;
+  left: 1201px;
+  overflow: hidden;
+}
+.v4_454 {
+  width: 119px;
+  height: 47px;
+  background: rgba(23,23,23,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.v4_456 {
+  width: 150px;
+  height: 49px;
+  background: url("../images/v4_456.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 44px;
+  left: 867px;
+  overflow: hidden;
+}
+.v4_457 {
+  width: 150px;
+  height: 47px;
+  background: url("../images/v4_457.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4_458 {
+  width: 150px;
+  height: 47px;
+  background: rgba(23,23,23,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.v4_460 {
+  width: 122px;
+  height: 47px;
+  background: url("../images/v4_460.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 46px;
+  left: 1054px;
+  overflow: hidden;
+}
+.v4_461 {
+  width: 122px;
+  height: 47px;
+  background: url("../images/v4_461.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v4_462 {
+  width: 122px;
+  height: 47px;
+  background: rgba(23,23,23,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
 }
