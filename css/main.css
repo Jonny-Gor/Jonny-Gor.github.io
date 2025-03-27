@@ -1,283 +1,164 @@
+/* Reset и базовые стили */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-size: 14px;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #000000;
 }
-.v1_1178 {
+
+/* Основные стили контейнера */
+.container {
   width: 100%;
-  height: 1024px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
+  min-height: 100vh;
   position: relative;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
 }
-.v1_1179 {
+
+/* Шапка сайта */
+.header {
   width: 100%;
-  height: 100%;
-  background: rgba(255,255,255,1);
-  opacity: 1;
+  height: 120px;
+  background: #ffffff;
   position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
 }
-.v1_1183 {
+
+.header-line {
   width: 100%;
   height: 10px;
-  background: rgba(23,23,23,1);
-  opacity: 1;
+  background: #171717;
   position: absolute;
   top: 120px;
-  left: 0px;
-  overflow: hidden;
 }
-.v4_101 {
-  width: 102px;
-  height: 35px;
-  background: url("../images/v4_101.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 45px;
-  left: 1228px;
-  overflow: hidden;
-}
-.name {
-  color: #fff;
-}
-.v1_1236 {
+
+.logo {
   width: 171px;
-  color: rgba(0,0,0,1);
+  color: #000000;
   position: absolute;
   top: 49px;
   left: 58px;
-  font-family: Rubik Burned;
-  font-weight: Regular;
+  font-family: 'Rubik Burned', cursive;
   font-size: 48px;
-  opacity: 1;
   text-align: left;
 }
-.v1_1237 {
+
+/* Основное содержимое */
+.main-content {
   width: 100%;
   height: 820px;
-  background: url("../images/v1_1237.png");
-  background-repeat: no-repeat;
-  background-position: center center;
   background-size: cover;
-  opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
   position: absolute;
   top: 130px;
-  left: 0px;
-  overflow: hidden;
 }
-.v4_6 {
-  width: 115px;
-  height: 115px;
-  background: url("../images/v4_6.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 835px;
-  left: 0px;
-  overflow: hidden;
-}
-.v4_10 {
+
+/* Футер */
+.footer {
   width: 100%;
   height: 72px;
-  background: rgba(23,23,23,1);
-  opacity: 1;
+  background: #171717;
   position: absolute;
-  top: 952px;
-  left: 0px;
-  overflow: hidden;
+  bottom: 0;
 }
-.v4_11 {
-  width: 175px;
-  color: rgba(255,255,255,1);
+
+.footer-text {
+  color: #ffffff;
   position: absolute;
-  top: 961px;
-  left: 339px;
-  font-family: Italianno;
-  font-weight: Regular;
+  font-family: 'Italianno', cursive;
   font-size: 48px;
-  opacity: 1;
-  text-align: left;
 }
-.v4_12 {
-  width: 37px;
-  height: 37px;
-  background: url("../images/v4_12.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
+
+.copyright {
+  color: #ffffff;
+  position: absolute;
+  font-family: 'Itim', cursive;
+  font-size: 64px;
+}
+
+/* Кнопки и элементы интерфейса */
+.button {
+  height: 47px;
+  background: #171717;
+  border-radius: 10px;
+  color: #ffffff;
+  position: absolute;
   overflow: hidden;
 }
-.v4_13 {
-  width: 280px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 978px;
-  left: 404px;
-  font-family: Itim;
-  font-weight: Regular;
-  font-size: 64px;
-  opacity: 1;
-  text-align: left;
-}
-.v4_450 {
-  width: 127px;
-  height: 48px;
-  background: url("../images/v4_450.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
+
+.button-home {
+  width: 119px;
   top: 45px;
   left: 720px;
-  overflow: hidden;
 }
-.v4_451 {
-  width: 119px;
-  height: 47px;
-  background: rgba(23,23,23,1);
-  opacity: 1;
-  position: absolute;
-  top: 1px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  overflow: hidden;
-}
-.name {
-  color: #fff;
-}
-.v4_453 {
-  width: 129px;
-  height: 47px;
-  background: url("../images/v4_453.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 45px;
-  left: 1201px;
-  overflow: hidden;
-}
-.v4_454 {
-  width: 119px;
-  height: 47px;
-  background: rgba(23,23,23,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  overflow: hidden;
-}
-.name {
-  color: #fff;
-}
-.v4_456 {
+
+.button-about {
   width: 150px;
-  height: 49px;
-  background: url("../images/v4_456.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
   top: 44px;
   left: 867px;
-  overflow: hidden;
 }
-.v4_457 {
-  width: 150px;
-  height: 47px;
-  background: url("../images/v4_457.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 2px;
-  left: 0px;
-  overflow: hidden;
-}
-.v4_458 {
-  width: 150px;
-  height: 47px;
-  background: rgba(23,23,23,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  overflow: hidden;
-}
-.name {
-  color: #fff;
-}
-.v4_460 {
+
+.button-contact {
   width: 122px;
-  height: 47px;
-  background: url("../images/v4_460.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
   top: 46px;
   left: 1054px;
-  overflow: hidden;
 }
-.v4_461 {
-  width: 122px;
-  height: 47px;
-  background: url("../images/v4_461.png");
-  background-repeat: no-repeat;
-  background-position: center center;
+
+.button-login {
+  width: 102px;
+  top: 45px;
+  left: 1228px;
+}
+
+/* Декоративные элементы */
+.decorative-image {
+  width: 115px;
+  height: 115px;
   background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 72px;
+  left: 0;
 }
-.v4_462 {
-  width: 122px;
-  height: 47px;
-  background: rgba(23,23,23,1);
-  opacity: 1;
+
+.social-icon {
+  width: 37px;
+  height: 37px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  overflow: hidden;
 }
-.name {
-  color: #fff;
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 768px) {
+  .logo {
+    font-size: 32px;
+    left: 20px;
+  }
+  
+  .button {
+    width: 80px;
+    font-size: 12px;
+  }
+  
+  .footer-text, .copyright {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 24px;
+  }
+  
+  .main-content {
+    height: 500px;
+  }
 }
